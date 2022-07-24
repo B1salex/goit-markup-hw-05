@@ -377,6 +377,8 @@ body {
   display: flex;
   padding: 12px;
   color: var(--icon-color);
+
+  transition: background-color 250ms var(--hover-timing), color 250ms var(--hover-timing);
 }
 
 .social-link:hover,
@@ -429,6 +431,8 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: var(--icon-color);
+
+  transition: color 250ms var(--hover-timing), border-color 250ms var(--hover-timing);
 }
 
 .clients-link:hover,
