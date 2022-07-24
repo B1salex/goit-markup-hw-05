@@ -93,7 +93,7 @@ body {
 
 .nav-header-links {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   margin-left: 93px;
 }
 
@@ -577,7 +577,7 @@ body {
 .filter-btn:hover {
   background-color: var(--hover-color);
   color: var(--hover-bgc);
-  transition: box-shadow 250ms var(--hover-timing);
+  /* transition: box-shadow 250ms var(--hover-timing); */
 }
 
 /* Наши проекты */
@@ -654,7 +654,8 @@ body {
   transition: transform 250ms var(--hover-timing);
 }
 
-.project-link:hover .project-overlay-text {
+.project-link:hover .project-overlay-text,
+.project-link:focus .project-overlay-text {
   transform: translateY(0);
 }
 
