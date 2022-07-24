@@ -109,7 +109,7 @@ body {
 .header-contacts {
   margin-left: auto;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 .nav-header-links .nav-header-link,
 .header-contacts .header-contact-link {
