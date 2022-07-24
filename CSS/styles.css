@@ -382,6 +382,7 @@ body {
   display: flex;
   padding: 12px;
   color: var(--icon-color);
+  border-radius: 50%;
 
   transition: background-color 250ms var(--hover-timing), color 250ms var(--hover-timing);
 }
@@ -389,7 +390,7 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--hover-color);
-  border-radius: 50%;
+
   color: var(--hover-bgc);
 }
 
