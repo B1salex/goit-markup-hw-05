@@ -57,7 +57,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
 }
 .header-container {
   display: flex;
@@ -68,7 +67,7 @@ body {
 /* ШАПКА index.html and portfolio.html*/
 .header {
   background-color: var(--hover-bgc);
-  /* border-bottom: #ececec solid 1px; */
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-header {
@@ -96,10 +95,6 @@ body {
   align-items: center;
   margin-left: 93px;
 }
-
-/* .nav-header-links .nav-header-list-item + .nav-header-list-item {
-  margin-left: 50px;
-} */
 
 .nav-header-list-item:not(:last-child),
 .header-contact:not(:last-child) {
@@ -607,9 +602,9 @@ body {
 
 .projects-item-part {
   padding: 20px 24px;
-  border-right: #eeeeee solid 1px;
-  border-left: #eeeeee solid 1px;
-  border-bottom: #eeeeee solid 1px;
+  border-right: solid 1px #eeeeee;
+  border-left: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
 }
 
 .projects-item .title {
@@ -678,11 +673,11 @@ body {
 
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--hover-timing);
+  transition: opacity 250ms var(--hover-timing), visibility 250ms var(--hover-timing);
 }
 .backdrop.is-hidden {
   opacity: 0;
-
+  visibility: hidden;
   pointer-events: none;
 }
 .backdrop.is-hidden .modal-content {
